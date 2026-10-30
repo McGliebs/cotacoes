@@ -38,10 +38,15 @@ solicitado.*) é opcional — escreva-a por cima da cotação ou use *Texto padr
 
 | Campo | Texto | Resultado |
 |---|---|---|
-| Voos GDS | ecrã da reserva (TAP, SATA…) | passageiros, voos com horas, bagagem incluída |
-| Voos EasyJet | resumo da reserva no site | voos e a nota de "nada reservado" |
-| Hotel | página do hotel | apenas quartos com **alojamento e pequeno-almoço** e reembolsáveis |
+| Voos GDS | ecrã da reserva (TAP, SATA…) | passageiros (com título e *(CHD)* nas crianças), voos com horas, bagagem incluída |
+| Voos EasyJet | cesto/resumo da reserva no site | voos e a nota de "nada reservado" |
+| Hotel | página do hotel no **smytravel**, **GoGlobal** (PT ou EN), **W2M** ou **TBO** | apenas tarifas com **alojamento e pequeno-almoço** e reembolsáveis; número de quartos lido da página |
 | Viatura | página do aluguer | modelo, datas, recolha/entrega, preço arredondado para cima |
+
+Os voos de cada origem (GDS, EasyJet) aparecem num só bloco — ida e volta
+juntas, com um só valor — e o percurso vem com o nome dos aeroportos
+(*Funchal - Lisboa*) em vez dos códigos. Se o texto do GDS trouxer também a
+reserva anterior (ecrã do Amadeus), só conta a última.
 
 ### Mais do que uma semana
 
@@ -49,12 +54,18 @@ Depois de preencher uma semana, clique em **+ Guardar semana**: fica guardada
 (com o título *Semana NN*) e os campos ficam livres para a seguinte. O email
 final junta todas, separadas como nos emails habituais.
 
-### Atalho no browser (opcional)
+### Enviar a página do browser (sem copiar)
 
-Em **Atalho do browser** (fundo do painel esquerdo), copie o endereço do
-favorito e crie com ele um favorito no Edge ou Chrome. Numa página de voos,
-hotel ou viatura, um clique nesse favorito copia o texto selecionado — ou a
-página inteira, se não houver nada selecionado. Depois é só Ctrl+V na app.
+A extensão do **Gerador Faturas** (a do SIGAV, versão 1.8.0 ou mais recente)
+envia a página aberta diretamente para o Cotações. Numa página de voos, hotel
+ou viatura, clique no ícone da extensão → **Enviar esta página**, ou use o
+atalho **Alt+Shift+C**. Vai o texto selecionado ou, sem seleção, a página
+inteira — e aparece logo no campo certo. Pode enviar o voo, o hotel e a
+viatura seguidos e só depois vir à app. O Cotações tem de estar aberto.
+
+Sem a extensão, em **Extensão do browser** (fundo do painel esquerdo) há um
+favorito alternativo, «Copiar p/ Cotações», que copia a página com um clique
+para depois fazer Ctrl+V na app.
 
 ### Tema
 
