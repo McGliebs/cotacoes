@@ -1,7 +1,7 @@
 # Cotações
 
 Gerador de cotações de viagem para Windows. Transforma o texto copiado do GDS,
-da EasyJet, do site de hotéis e do site de viaturas numa cotação pronta a colar
+da EasyJet, da Jet2, do site de hotéis e do site de viaturas numa cotação pronta a colar
 num email do Outlook — com os títulos, negritos e espaçamentos do formato da casa.
 
 ## Descarregar
@@ -16,8 +16,8 @@ Requisitos: Windows 10 ou 11.
 
 ## Como usar
 
-1. **Copie o texto** da reserva — o ecrã do GDS, o resumo da EasyJet, a página
-   do hotel ou a da viatura.
+1. **Copie o texto** da reserva — o ecrã do GDS, o resumo da EasyJet ou da Jet2,
+   a página do hotel ou a da viatura.
 2. **Faça Ctrl+V em qualquer lado da janela** (ou clique em **Colar**). A app
    reconhece o tipo de texto, põe-no no campo certo e a cotação aparece logo à
    direita.
@@ -39,14 +39,21 @@ solicitado.*) é opcional — escreva-a por cima da cotação ou use *Texto padr
 | Campo | Texto | Resultado |
 |---|---|---|
 | Voos GDS | ecrã da reserva (TAP, SATA…) | passageiros (com título e *(CHD)* nas crianças), voos com horas, bagagem incluída |
-| Voos EasyJet | cesto/resumo da reserva no site | voos e a nota de "nada reservado" |
+| Voos EasyJet / Jet2 | cesto/resumo da reserva no site da **EasyJet** ou da **Jet2** (na Jet2, com o painel **Open all** aberto) | voos, a bagagem incluída na tarifa e a nota de "nada reservado" |
 | Hotel | página do hotel no **smytravel**, **GoGlobal** (PT ou EN), **W2M** ou **TBO** | apenas tarifas com **alojamento e pequeno-almoço** e reembolsáveis; número de quartos lido da página |
 | Viatura | página do aluguer | modelo, datas, recolha/entrega, preço arredondado para cima |
 
-Os voos de cada origem (GDS, EasyJet) aparecem num só bloco — ida e volta
-juntas, com um só valor — e o percurso vem com o nome dos aeroportos
-(*Funchal - Lisboa*) em vez dos códigos. Se o texto do GDS trouxer também a
+Os voos de cada origem (GDS, EasyJet/Jet2) aparecem num só bloco — ida e volta
+juntas, com um só valor — em colunas alinhadas, e o percurso vem com o nome dos
+aeroportos (*Funchal - Lisboa*) em vez dos códigos. Se o texto do GDS trouxer também a
 reserva anterior (ecrã do Amadeus), só conta a última.
+
+Na EasyJet e na Jet2 a linha da bagagem (*•( Inclui: … )*) é lida da própria
+página — malas de cabine e de porão de cada voo, por passageiro — por isso
+acompanha a tarifa escolhida (Light, Smart+, Extra, All-in…) e as malas
+compradas à parte. Se a ida e a volta tiverem bagagem diferente, sai uma linha
+por voo. Na Jet2, abra **Open all** (por baixo de *Total so far*) antes de
+copiar ou enviar a página: é aí que estão o número do voo e a hora de chegada.
 
 ### Mais do que uma semana
 
