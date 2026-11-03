@@ -41,7 +41,10 @@ Cada texto de voos (GDS ou low-cost) ou de hotel que colar é **mais uma opção
 não substitui o anterior. Na cotação aparecem como *Opção 1:*, *Opção 2:*… — os
 voos por data — cada uma com o seu valor. À esquerda cada opção tem a sua linha
 (com o primeiro voo ou o nome do hotel) e o seu ×, para a tirar. Para acrescentar
-uma opção escrita à mão, clique no nome do campo (**+ opção**). Colar o mesmo
+uma opção escrita à mão, clique no nome do campo (**+ opção**). Para mudar a
+ordem, use as setas **▲ ▼** ao lado de cada *Opção N:* na cotação — os voos (GDS
+e low-cost juntos) e os hotéis, cada um na sua secção; o valor escrito acompanha
+a opção, e a ordem mantém-se se colar mais opções (as novas vão para o fim). Colar o mesmo
 texto duas vezes não o repete. A viatura é uma só: colar outra substitui-a.
 
 A **abertura do email** (ex.: *Bom dia! Envio abaixo cotações conforme
