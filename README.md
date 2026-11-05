@@ -43,7 +43,9 @@ voos por data — cada uma com o seu valor. À esquerda cada opção tem a sua l
 (com o primeiro voo ou o nome do hotel) e o seu ×, para a tirar. Para acrescentar
 uma opção escrita à mão, clique no nome do campo (**+ opção**). Para mudar a
 ordem, use as setas **▲ ▼** ao lado de cada *Opção N:* na cotação — os voos (GDS
-e low-cost juntos) e os hotéis, cada um na sua secção; o valor escrito acompanha
+e low-cost juntos) e os hotéis, cada um na sua secção — ou arraste a linha da
+opção no painel da esquerda (pela pega **⋮⋮** ou pela própria linha), dentro do
+seu campo. O painel mostra as opções pela ordem do email. O valor escrito acompanha
 a opção, e a ordem mantém-se se colar mais opções (as novas vão para o fim). Colar o mesmo
 texto duas vezes não o repete. A viatura é uma só: colar outra substitui-a.
 
