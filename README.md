@@ -1,7 +1,7 @@
 # Cotações
 
 Gerador de cotações de viagem para Windows. Transforma o texto copiado do GDS,
-da EasyJet, da Jet2, da Wizz Air, da TUI fly, da Eurowings, do site de hotéis e do site de viaturas numa cotação pronta a colar
+da EasyJet, da Jet2, da Wizz Air, da TUI fly, da Eurowings, do site de hotéis, dos transferes da GoGlobal e do site de viaturas numa cotação pronta a colar
 num email do Outlook — com os títulos, negritos e espaçamentos do formato da casa.
 
 ## Descarregar
@@ -18,7 +18,7 @@ Requisitos: Windows 10 ou 11.
 
 1. **Copie o texto** da reserva — o ecrã do GDS, o resumo da EasyJet, da Jet2, da Wizz Air, da
    TUI fly ou da Eurowings,
-   a página do hotel ou a da viatura.
+   a página do hotel, a dos transferes ou a da viatura.
 2. **Faça Ctrl+V em qualquer lado da janela** (ou clique em **Colar**). A app
    reconhece o tipo de texto, põe-no no campo certo e a cotação aparece logo à
    direita.
@@ -26,7 +26,7 @@ Requisitos: Windows 10 ou 11.
    de cada *Valor:* (e o número de quartos do hotel). Enter passa à caixa
    seguinte. Os valores escritos mantêm-se mesmo que volte a colar texto.
    Com mais do que um preço, a cotação termina com o **Total:** — a soma
-   dos voos, hotel e viatura, atualizada enquanto escreve (no email só sai
+   dos voos, hotel, transferes e viatura, atualizada enquanto escreve (no email só sai
    quando todos os valores estão preenchidos, e não sai quando há opções).
 4. **Copiar para Outlook** e cole na resposta ao cliente.
 
@@ -47,7 +47,7 @@ e low-cost juntos) e os hotéis, cada um na sua secção — ou arraste a linha 
 opção no painel da esquerda (pela pega **⋮⋮** ou pela própria linha), dentro do
 seu campo. O painel mostra as opções pela ordem do email. O valor escrito acompanha
 a opção, e a ordem mantém-se se colar mais opções (as novas vão para o fim). Colar o mesmo
-texto duas vezes não o repete. A viatura é uma só: colar outra substitui-a.
+texto duas vezes não o repete. Os transferes e a viatura são um só: colar outro substitui-o.
 
 A **abertura do email** (ex.: *Bom dia! Envio abaixo cotações conforme
 solicitado.*) é opcional — escreva-a por cima da cotação ou use *Texto padrão*.
@@ -59,6 +59,7 @@ solicitado.*) é opcional — escreva-a por cima da cotação ou use *Texto padr
 | Voos GDS | ecrã da reserva (TAP, SATA…) | passageiros (com título e *(CHD)* nas crianças), voos com horas, bagagem incluída |
 | Voos low-cost | cesto/resumo da reserva no site da **EasyJet**, da **Jet2** (com o painel **Open all** aberto) da **Wizz Air** da **TUI fly** (com **Show booking overview** aberto) ou da **Eurowings** (o *Booking overview* da página dos passageiros) | voos, a bagagem incluída na tarifa e a nota de "nada reservado" |
 | Hotel | página do hotel no **smytravel**, **GoGlobal** (PT ou EN), **W2M** ou **TBO** | apenas tarifas com **alojamento e pequeno-almoço** e reembolsáveis; número de quartos lido da página |
+| Transferes | página da reserva de transferes na **GoGlobal** (com as *Selected Offers*) | percursos de ida e regresso com data e hora, o veículo (pessoas e malas) e o preço total |
 | Viatura | página do aluguer | modelo, datas, recolha/entrega, preço arredondado para cima |
 
 Os voos de cada origem (GDS, low-cost) aparecem num só bloco — ida e volta
