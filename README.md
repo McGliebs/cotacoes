@@ -58,7 +58,7 @@ solicitado.*) é opcional — escreva-a por cima da cotação ou use *Texto padr
 |---|---|---|
 | Voos GDS | ecrã da reserva (TAP, SATA…) | passageiros (com título e *(CHD)* nas crianças), voos com horas, bagagem incluída |
 | Voos low-cost | cesto/resumo da reserva no site da **EasyJet**, da **Jet2** (com o painel **Open all** aberto) da **Wizz Air** da **TUI fly** (com **Show booking overview** aberto) ou da **Eurowings** (o *Booking overview* da página dos passageiros) | voos, a bagagem incluída na tarifa e a nota de "nada reservado" |
-| Hotel | página do hotel no **smytravel**, **GoGlobal** (PT ou EN), **W2M** ou **TBO** | apenas tarifas com **alojamento e pequeno-almoço** e reembolsáveis; número de quartos lido da página |
+| Hotel | página do hotel no **smytravel**, **GoGlobal** (PT ou EN), **W2M** ou **TBO** | apenas tarifas reembolsáveis — de preferência com **alojamento e pequeno-almoço**; se não houver, a primeira de outro regime (ex.: *Só alojamento*), com o regime na cotação; número de quartos lido da página |
 | Transferes | página da reserva de transferes na **GoGlobal** (com as *Selected Offers*) | percursos de ida e regresso com data e hora, o veículo (pessoas e malas) e o preço total |
 | Viatura | página do aluguer | modelo, datas, recolha/entrega, preço arredondado para cima |
 
